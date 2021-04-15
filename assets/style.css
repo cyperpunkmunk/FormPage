@@ -20,7 +20,7 @@ body{
 }
 
 .titleImg{
-    border-right: 6px green;
+    border-right: 6px rgba(34, 138, 34, 0.583);
     height: 20px;
 
 }
@@ -42,7 +42,7 @@ body{
     margin-top: 25px;;
 }
 .greenContainer{
-    background-color: rgba(48, 209, 39, 0.419);
+    background-color: rgba(48, 179, 41, 0.426);
     border-radius: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -87,4 +87,8 @@ body{
 }
 .typeDrop{
     list-style: none;
+}
+
+.stateSelect{
+    margin-top: 24px;
 }
