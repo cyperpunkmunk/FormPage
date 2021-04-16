@@ -100,3 +100,22 @@ body{
 .empTitle{
     padding-top: 15px;
 }
+.greenContainer .bottom {
+    
+    border-radius: 5px;
+    padding-top: 1px;
+    margin-bottom: 20px;
+}
+
+.mainbody{
+    margin-bottom:70px ;
+}
+
+.rowBottom {
+    background-color: #99b6e2;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+}
