@@ -119,3 +119,9 @@ body{
     margin-right: 1px;
     margin-bottom: 5px;
 }
+
+.splitform{
+    display: flex;
+    
+}
+
