@@ -67,7 +67,7 @@
           </div>
         </div>
       </nav>
-      <div class = "userInfo"> <p><b>ppOne AppID:</b> 6046760 Customer Name: <b>GARY LATTIMORE</b></p> </div>
+      <div class = "userInfo"> <p><b>AppOne AppID:</b> 6046760 Customer Name: <b>GARY LATTIMORE</b></p> </div>
       <nav class="nav">
         <a class="nav-link active" aria-current="page" href="#">Active</a>
         <a class="nav-link disabled" href="#">Customer</a>
@@ -134,35 +134,26 @@
                 <div class = "formTitle">
                     <h2>Applicant #1 - Personal Information  (MUST MATCH DRIVER’S LICENSE)</h2>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                   <label for="inputEmail4" class="form-label">First Name</label>
                   <input type="email" class="form-control" id="inputEmail4">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                   <label for="inputPassword4" class="form-label">Last Name</label>
                   <input type="password" class="form-control" id="inputPassword4">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <label for="inputPassword4" class="form-label">Middle Name</label>
                     <input type="password" class="form-control" id="inputPassword4">
                 </div>
-                <div class="col-md-2 dropper">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                           Suffix 
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                          <li><a class="dropdown-item active" href="#"> Sr</a></li>
-                          <li><a class="dropdown-item" href="#">Jr</a></li>
-                          <li><a class="dropdown-item" href="#">II</a></li>
-                          <li><a class="dropdown-item" href="#">III</a></li>
-                          <li><a class="dropdown-item" href="#">IV</a></li>
-                          <li><a class="dropdown-item" href="#">V</a></li>
-
-                        </ul>
-                      </div>
-                </div>
-                <div class="col-10">
+                <div class="col-md-1 stateSelect">
+                  <label for="inputState" class="form-label"></label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Suffix...</option>
+                    <option>...</option>
+                  </select>
+              </div>
+                <div class="col-9">
                   <label for="inputAddress" class="form-label">SSN</label>
                   <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                 </div>
@@ -196,6 +187,107 @@
                       <option>...</option>
                     </select>
                 </div>
+              </form>
+              
+              
+              <form class="row g-3">
+                <div class = "formTitle">
+                    <h2>Current Residence Information </h2>
+                </div>
+                <div class="col-md-4">
+                  <label for="inputEmail4" class="form-label">Adress</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputPassword4" class="form-label">Street:</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-md-2">
+                    <label for="inputPassword4" class="form-label">Apt#:</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputZip" class="form-label">Zip/City/State:</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-md-4 stateSelect">
+                  <label for="inputZip" class="form-label"></label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-md-2 stateSelect">
+                    <label for="inputState" class="form-label"></label>
+                    <select id="inputState" class="form-select">
+                      <option selected>State...</option>
+                      <option>...</option>
+                    </select>
+                </div>
+                <div class="col-8">
+                  <label for="inputAddress2" class="form-label">County</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="County">
+                </div>
+                <div class="col-md-5">
+                  <label for="inputCity" class="form-label">How Long</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="Years">
+                </div>
+                <div class="col-md-3 stateSelect">
+                    <label for="inputAddress" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Months">
+                  </div>
+                <div class="col-md-2 stateSelect">
+                    <label for="inputState" class="form-label"></label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Status...</option>
+                      <option>own</option>
+                      <option>rent</option>
+                      <option>with relatives</option>
+                      <option>with friend</option>
+                      <option>other</option>
+                    </select>
+                </div>
+                <div class="col-md-8">
+                  <label for="inputCity" class="form-label">Rent/Mortgage Pmt</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="Amount...">
+                </div>
+                <div class="col-md-8">
+                  <label for="inputCity" class="form-label">Landlord/Mortgage Co:</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="...">
+                </div>
+                <div class="col-md-8">
+                  <label for="inputCity" class="form-label">Landlord/Mortgage Phone:</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="...">
+                </div>
+                <div class=" col-md-8 showBtn">
+                  <div class="edit">
+                      <button class="btn btn-secondary " type="button"  aria-expanded="false">
+                        Enter Mailing Address (different than Current/Physical Address)
+                      </button>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <label for="inputCity" class="form-label">Adress</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="...">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputZip" class="form-label">Zip/City/State:</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-md-4 stateSelect">
+                  <label for="inputZip" class="form-label"></label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-md-2 stateSelect">
+                    <label for="inputState" class="form-label"></label>
+                    <select id="inputState" class="form-select">
+                      <option selected>State...</option>
+                      <option>...</option>
+                    </select>
+                </div>
+                <div class="col-8">
+                  <label for="inputAddress2" class="form-label">County</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="County">
+                </div>
+               
+                
               </form>
         </div>
         
